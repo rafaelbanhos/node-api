@@ -12,10 +12,13 @@ app.set('port', port);
 const server = http.createServer(app);
 const router = express.Router();
 
-var route = router.get('/', (req, res, next) => {
+const route = router.get('/', (req, res, next) => {
     res.status(200).send({
         title: "Node Store API",
         version: "0.0.1"
     });
 });
 app.use('/', route);
+
+server.listen(port);
+console.log('API rodando na porta ' + port);
