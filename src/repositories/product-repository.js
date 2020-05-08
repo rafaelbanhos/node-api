@@ -26,7 +26,7 @@ exports.getById = async (id) => {
 }
 
 exports.getByTag = async (tag) => {
-    const res = await Product
+    const res = Product
         .find({
             tags: tag,
             active: true
@@ -53,5 +53,5 @@ exports.update = async (id, data) => {
 
 exports.delete = async (id) => {
     await Product
-        .findOneAndRemove(id);
+        .findByIdAndRemove(id);
 }
