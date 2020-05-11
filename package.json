@@ -10,7 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@types/sendgrid": "^4.3.0",
     "body-parser": "^1.19.0",
     "debug": "^4.1.1",
     "express": "^4.17.1",
@@ -21,6 +20,7 @@
     "sendgrid": "^2.0.0"
   },
   "devDependencies": {
+    "@types/sendgrid": "^4.3.0",
     "nodemon": "^2.0.3"
   }
 }

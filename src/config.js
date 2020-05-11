@@ -3,6 +3,6 @@ global.EMAIL_TMPL = 'Olá, <strong>{0}</strong>, seja bem-vindo à Node Api!';
 
 module.exports = {
     connectionString: 'mongodb+srv://banhaum:powered85@node-api-dehfn.mongodb.net/test?retryWrites=true&w=majority',
-    sendgridKey: '#',
+    sendgridKey: 'YOU_KEY',
     containerConnectionString: 'TBD'
 }
