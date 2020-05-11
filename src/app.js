@@ -8,7 +8,7 @@ const app = express();
 const router = express.Router();
 
 //conecta ao banco
-mongoose.connect('mongodb+srv://banhaum:teste@cluster0-dehfn.mongodb.net/test?retryWrites=true&w=majority');
+mongoose.connect('mongodb+srv://banhaum:<password>@node-api-dehfn.mongodb.net/test?retryWrites=true&w=majority');
 
 //carrega os models
 const Product = require('./models/product');
