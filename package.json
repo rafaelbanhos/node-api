@@ -10,13 +10,15 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/sendgrid": "^4.3.0",
     "body-parser": "^1.19.0",
     "debug": "^4.1.1",
     "express": "^4.17.1",
     "guid": "0.0.12",
     "http": "0.0.1-security",
     "md5": "^2.2.1",
-    "mongoose": "^5.9.12"
+    "mongoose": "^5.9.12",
+    "sendgrid": "^2.0.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.3"
